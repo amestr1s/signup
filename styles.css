@@ -37,16 +37,35 @@ body {
 }
 
 #leftSide {
-    flex: 1;
+    flex: 1 0 5%;
 }
 
 #rightSide {
     flex: 2;
     margin-left: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 #logoText {
     font-family: norse;
     font-size: 48px;
     font-weight: 900;
+}
+
+#topForm,
+#midForm,
+#botForm {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#topLeftForm,
+#topRightForm,
+#midLeftForm,
+#midRightForm,
+#botLeftForm,
+#botRightForm {
+    display: flex;
+    flex-direction: column;
 }
