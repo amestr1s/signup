@@ -1,0 +1,52 @@
+@import url(modern-normalize.css); 
+
+:root {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+@font-face {
+    font-family: "norse";
+    src: url(fonts/Norse-Bold.woff2) format('woff2'),
+        url(fonts/Norse-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    display: flex;
+}
+
+#leftSide {
+    flex: 1;
+}
+
+#rightSide {
+    flex: 2;
+    margin-left: 32px;
+}
+
+#logoText {
+    font-family: norse;
+    font-size: 48px;
+    font-weight: 900;
+}
