@@ -39,22 +39,76 @@ body {
 
 
 #rightSide {
-    flex: 2;
-    margin-left: 32px;
+    flex: 1.5;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 400px;
+    gap: 32px;
+
 }
 
+#topSection {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 120px;
+    gap: 16px;
+}
 
+#botSection {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    gap: 24px;
+    padding-top: 24px;
+}
 
 #topForm,
 #midForm,
 #botForm {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    
+    gap: 70px;
 }
+
+#formText {
+    font-weight: 900;
+    font-size: 22px;
+    color: black;
+    opacity: 0.7;
+}
+
+label {
+    font-size: 12px;
+    color: black;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+input {
+    width: 16rem;
+    height: 1.8rem;
+    border: 2px solid #E5E7EB;
+    background-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid lightblue;
+    outline: none;
+}
+
+
+input:invalid {
+    border: 2px solid red;
+}
+
+
 
 #topLeftForm,
 #topRightForm,
@@ -64,13 +118,39 @@ body {
 #botRightForm {
     display: flex;
     flex-direction: column;
+    gap: 4px;
+}
+
+#formSection {
+    width: 100%;
+    
 }
 
 #formBackground {
-    background-color: lightblue;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 56px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+#botText {
+    font-weight: 600;
+}
+
+#botLink {
+    color: darkolivegreen;
+}
+
+button {
+    padding: 10px 50px 10px 50px;
+    background-color: darkolivegreen;
+    border: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
 }
 
 #leftSide {
