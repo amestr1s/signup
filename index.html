@@ -14,7 +14,7 @@
             </figcaption>
         </figure>
         <div id="logo">
-            <img src="img/logo.png" alt="Odin logo">
+            <img id="logoImg" src="img/logo.png" alt="Odin logo">
             <div id="logoText">ODIN</div>
         </div>
     </div>
@@ -22,36 +22,39 @@
         <div id="topText"><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</strong></div>
         <div id="midTopText"><strong>You <em>know</em> you want to.</strong></div>
         <div id="formSection">
-            <div id="formText">Let's do this!</div>
+            
             <form action="#" method="get">
-                <div id="topForm">
-                    <div id="topLeftForm">
-                        <label for="name">FIRST NAME</label>
-                        <input id="name" name="name" type="text">
+                <div id="formBackground">
+                    <div id="formText">Let's do this!</div>
+                    <div id="topForm">
+                        <div id="topLeftForm">
+                            <label for="name">FIRST NAME</label>
+                            <input id="name" name="name" type="text">
+                        </div>
+                        <div id="topRightForm">
+                            <label for="surname">LAST NAME</label>
+                            <input id="surname" name="surname" type="text">
+                        </div>
                     </div>
-                    <div id="topRightForm">
-                        <label for="surname">LAST NAME</label>
-                        <input id="surname" name="surname" type="text">
+                    <div id="midForm">
+                        <div id="midLeftForm">
+                            <label for="email">EMAIL</label>
+                            <input id="email" name="email" type="email">
+                        </div>
+                        <div id="midRightForm">
+                            <label for="tel">PHONE NUMBER</label>
+                            <input id="tel" name="tel" type="tel">
+                        </div>
                     </div>
-                </div>
-                <div id="midForm">
-                    <div id="midLeftForm">
-                        <label for="email">EMAIL</label>
-                        <input id="email" name="email" type="email">
-                    </div>
-                    <div id="midRightForm">
-                        <label for="tel">PHONE NUMBER</label>
-                        <input id="tel" name="tel" type="tel">
-                    </div>
-                </div>
-                <div id="botForm">
-                    <div id="botLeftForm">
-                        <label for="password">PASSWORD</label>
-                        <input id="password" name="password" type="password" required>
-                    </div>
-                    <div id="botRightForm">
-                        <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input id="confirmPassword" name="confirmPassword" type="password" required>
+                    <div id="botForm">
+                        <div id="botLeftForm">
+                            <label for="password">PASSWORD</label>
+                            <input id="password" name="password" type="password" required>
+                        </div>
+                        <div id="botRightForm">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input id="confirmPassword" name="confirmPassword" type="password" required>
+                        </div>
                     </div>
                 </div>
                 <div id="buttonForm">

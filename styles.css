@@ -36,22 +36,18 @@ body {
     display: flex;
 }
 
-#leftSide {
-    flex: 1 0 5%;
-}
+
 
 #rightSide {
     flex: 2;
     margin-left: 32px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
 }
 
-#logoText {
-    font-family: norse;
-    font-size: 48px;
-    font-weight: 900;
-}
+
 
 #topForm,
 #midForm,
@@ -68,4 +64,61 @@ body {
 #botRightForm {
     display: flex;
     flex-direction: column;
+}
+
+#formBackground {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#leftSide {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); /* transparent background only */
+    padding: 5px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 10rem;
+}
+
+#logoText {
+    font-family: norse;
+    font-size: 100px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+#logoImg {
+    height: 130px;
+    width: auto;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+a {
+    color: #FFFFFF;
 }
